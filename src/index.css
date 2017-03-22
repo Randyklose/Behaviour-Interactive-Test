@@ -1,0 +1,119 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color:white;
+  background-color: rgba(12, 54, 82, 0.84);
+  height: 100%;
+}
+.topMenu {
+  text-align: center;
+}
+.container {
+  background-color: rgb(43, 43, 59);
+  padding: 1%;
+}
+.jumbotron {
+  background-image: url("http://lorempixel.com/400/200/abstract/4");
+  margin: 1.5%;
+  min-height: 100px;
+  height: auto;
+}
+.inside {
+  padding-top: 5%;
+}
+.jumbotron p{
+  text-align: left;
+  font-size: 10px;;
+  padding-left: 2%;
+  margin-top: -10px;
+}
+.stations {
+  display:flex;
+  width:100%;
+  text-align: left;
+  font-size: 0.5em;
+}
+.stations p {
+  font-size: 0.4em;
+  color:rgba(58, 177, 203, 0.89);
+  margin-top: -10px;
+}
+
+.stations a{
+  background-color: rgb(11, 35, 252);
+  font-size: 10px;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.suggestedStations h5 {
+  text-align: left;
+  font-size: 10px;
+  padding-top: 20%;
+}
+.suggestedStations h2 {
+  text-align: left;
+  font-size: 10px;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.tracks h2 {
+  text-align: left;
+  font-size: 10px;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.tracks{
+  display:flex;
+  flex-direction: column;
+  }
+
+.tracks img{
+  width: 15%;
+  height: 15%;
+}
+
+.first{
+  background-image: url("http://lorempixel.com/200/200/abstract/1");
+  margin-left: 2.5%;
+  width:30%;
+  min-height: 100px;
+  height: auto;
+  padding-left: 2.5%;
+  padding-top: 2.5%;
+}
+.second {
+  background-image: url("http://lorempixel.com/200/200/abstract/2");
+  width:30%;
+  margin-left: 2.5%;
+  min-height: 100px;
+  height: auto;
+  padding-left: 2.5%;
+  padding-top: 2.5%;
+}
+.third {
+  background-image: url("http://lorempixel.com/200/200/abstract/3");
+  width:30%;
+  margin-left: 2.5%;
+  min-height: 100px;
+  height: auto;
+  padding-left: 2.5%;
+  padding-top: 2.5%;
+}
+.song {
+  display:flex;
+  }
+.song button {
+  color:white;
+  margin-left: auto;
+
+}
+.middle {
+    font-size: 10px;
+  }
+  .middle p {
+    margin-top: -10px;
+  }
